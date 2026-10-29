@@ -7,7 +7,7 @@
 
 - [ ] **Day 1: Classes & Instances** (Phase 1: Crash Course)
   - [x] BankAccount with validation `phase-1/day1_classes_instances_bank.py`
-  - [ ] Instance tracker `phase-1/day1_classes_instances_tracker.py`
+  - [x] Instance tracker `phase-1/day1_classes_instances_tracker.py`
   - [ ] Library domain model `phase-1/day1_classes_instances_library.py`
 - [ ] **Day 2: Inheritance & Composition** (Phase 1: Crash Course)
   - [ ] Vehicle inheritance tree `phase-1/day2_inheritance_compos_vehicle.py`
