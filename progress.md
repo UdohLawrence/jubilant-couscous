@@ -1,0 +1,511 @@
+# 120 Days: Scripts to Shipped AI SaaS - Daily Tracker
+
+> Hosted at udohlawrence.github.io/jubilant-couscous - 120 Days Daily Execution
+**Progress:** 0/120 (0%) | **Streak:** 0 🔥 | **Remaining:** 120
+
+## Checklist
+
+- [ ] **Day 1: Classes & Instances** (Phase 1: Crash Course)
+  - [ ] BankAccount with validation `phase-1/day1_classes_instances_bank.py`
+  - [ ] Instance tracker `phase-1/day1_classes_instances_tracker.py`
+  - [ ] Library domain model `phase-1/day1_classes_instances_library.py`
+- [ ] **Day 2: Inheritance & Composition** (Phase 1: Crash Course)
+  - [ ] Vehicle inheritance tree `phase-1/day2_inheritance_compos_vehicle.py`
+  - [ ] Composition: Engine + Car `phase-1/day2_inheritance_compos_engine.py`
+  - [ ] E-commerce discount hierarchy `phase-1/day2_inheritance_compos_discount.py`
+- [ ] **Day 3: E-Commerce Cart System** (Phase 1: Crash Course)
+  - [ ] Shopping cart with coupons `phase-1/day3_e_commerce_cart_sy_cart.py`
+  - [ ] Inventory with reservations `phase-1/day3_e_commerce_cart_sy_inventory.py`
+  - [ ] Order state machine `phase-1/day3_e_commerce_cart_sy_order.py`
+- [ ] **Day 4: Files & Pathlib** (Phase 1: Crash Course)
+  - [ ] Log parser with pathlib `phase-1/day4_files_pathlib_log_parser.py`
+  - [ ] Recursive file sizer `phase-1/day4_files_pathlib_sizer.py`
+  - [ ] Safe config migrator `phase-1/day4_files_pathlib_migrator.py`
+- [ ] **Day 5: Exceptions & Tracebacks** (Phase 1: Crash Course)
+  - [ ] Robust CSV loader `phase-1/day5_exceptions_traceba_csv_loader.py`
+  - [ ] Retry decorator for IO `phase-1/day5_exceptions_traceba_retry.py`
+  - [ ] Bank transfer with rollback `phase-1/day5_exceptions_traceba_transfer.py`
+- [ ] **Day 6: JSON & Config Files** (Phase 1: Crash Course)
+  - [ ] Typed JSON config manager `phase-1/day6_json_config_files_config.py`
+  - [ ] Environment-aware config `phase-1/day6_json_config_files_env_config.py`
+  - [ ] JSONL event store `phase-1/day6_json_config_files_event_store.py`
+- [ ] **Day 7: Logging & Error Handling** (Phase 1: Crash Course)
+  - [ ] Structured logger `phase-1/day7_logging_error_hand_logger.py`
+  - [ ] Error boundary CLI `phase-1/day7_logging_error_hand_cli_error.py`
+  - [ ] Audit trail `phase-1/day7_logging_error_hand_audit.py`
+- [ ] **Day 8: Unit Testing Basics** (Phase 1: Crash Course)
+  - [ ] Test BankAccount `phase-1/day8_unit_testing_basic_test_bank.py`
+  - [ ] Cart test suite with setup `phase-1/day8_unit_testing_basic_test_cart.py`
+  - [ ] Custom assert helper `phase-1/day8_unit_testing_basic_assert_helper.py`
+- [ ] **Day 9: Pytest & Fixtures** (Phase 1: Crash Course)
+  - [ ] Pytest fixtures for DB `phase-1/day9_pytest_fixtures_pytest_repo.py`
+  - [ ] Parametrized discount tests `phase-1/day9_pytest_fixtures_param_test.py`
+  - [ ] Mock external API `phase-1/day9_pytest_fixtures_mock_api.py`
+- [ ] **Day 10: TDD Workflow** (Phase 1: Crash Course)
+  - [ ] TDD: String calculator `phase-1/day10_tdd_workflow_string_calc.py`
+  - [ ] TDD: Rate limiter `phase-1/day10_tdd_workflow_rate_limiter.py`
+  - [ ] TDD: URL shortener core `phase-1/day10_tdd_workflow_shortener.py`
+- [ ] **Day 11: Matplotlib Foundations** (Phase 1: Crash Course)
+  - [ ] Matplotlib Foundations: core builder `phase-1/day11_matplotlib_foundat_core.py`
+  - [ ] Matplotlib Foundations: analyzer `phase-1/day11_matplotlib_foundat_analyzer.py`
+  - [ ] Matplotlib Foundations: stretch `phase-1/day11_matplotlib_foundat_stretch.py`
+- [ ] **Day 12: CSV Parsing & Analysis** (Phase 1: Crash Course)
+  - [ ] CSV Parsing & Analysis: core builder `phase-1/day12_csv_parsing_analys_core.py`
+  - [ ] CSV Parsing & Analysis: analyzer `phase-1/day12_csv_parsing_analys_analyzer.py`
+  - [ ] CSV Parsing & Analysis: stretch `phase-1/day12_csv_parsing_analys_stretch.py`
+- [ ] **Day 13: API Data Plotting** (Phase 1: Crash Course)
+  - [ ] API Data Plotting: core builder `phase-1/day13_api_data_plotting_core.py`
+  - [ ] API Data Plotting: analyzer `phase-1/day13_api_data_plotting_analyzer.py`
+  - [ ] API Data Plotting: stretch `phase-1/day13_api_data_plotting_stretch.py`
+- [ ] **Day 14: Cleaning Data for Viz** (Phase 1: Crash Course)
+  - [ ] Cleaning Data for Viz: core builder `phase-1/day14_cleaning_data_for__core.py`
+  - [ ] Cleaning Data for Viz: analyzer `phase-1/day14_cleaning_data_for__analyzer.py`
+  - [ ] Cleaning Data for Viz: stretch `phase-1/day14_cleaning_data_for__stretch.py`
+- [ ] **Day 15: Interactive Viz Project** (Phase 1: Crash Course)
+  - [ ] Interactive Viz Project: core builder `phase-1/day15_interactive_viz_pr_core.py`
+  - [ ] Interactive Viz Project: analyzer `phase-1/day15_interactive_viz_pr_analyzer.py`
+  - [ ] Interactive Viz Project: stretch `phase-1/day15_interactive_viz_pr_stretch.py`
+- [ ] **Day 16: Requests & HTTP** (Phase 1: Crash Course)
+  - [ ] Requests & HTTP: core builder `phase-1/day16_requests_http_core.py`
+  - [ ] Requests & HTTP: analyzer `phase-1/day16_requests_http_analyzer.py`
+  - [ ] Requests & HTTP: stretch `phase-1/day16_requests_http_stretch.py`
+- [ ] **Day 17: Pagination & Rate Limits** (Phase 1: Crash Course)
+  - [ ] Pagination & Rate Limits: core builder `phase-1/day17_pagination_rate_li_core.py`
+  - [ ] Pagination & Rate Limits: analyzer `phase-1/day17_pagination_rate_li_analyzer.py`
+  - [ ] Pagination & Rate Limits: stretch `phase-1/day17_pagination_rate_li_stretch.py`
+- [ ] **Day 18: Django Project Setup** (Phase 1: Crash Course)
+  - [ ] Django Project Setup: core builder `phase-1/day18_django_project_set_core.py`
+  - [ ] Django Project Setup: analyzer `phase-1/day18_django_project_set_analyzer.py`
+  - [ ] Django Project Setup: stretch `phase-1/day18_django_project_set_stretch.py`
+- [ ] **Day 19: Django Models & ORM** (Phase 1: Crash Course)
+  - [ ] Django Models & ORM: core builder `phase-1/day19_django_models_orm_core.py`
+  - [ ] Django Models & ORM: analyzer `phase-1/day19_django_models_orm_analyzer.py`
+  - [ ] Django Models & ORM: stretch `phase-1/day19_django_models_orm_stretch.py`
+- [ ] **Day 20: Django Admin & Views** (Phase 1: Crash Course)
+  - [ ] Django Admin & Views: core builder `phase-1/day20_django_admin_views_core.py`
+  - [ ] Django Admin & Views: analyzer `phase-1/day20_django_admin_views_analyzer.py`
+  - [ ] Django Admin & Views: stretch `phase-1/day20_django_admin_views_stretch.py`
+- [ ] **Day 21: Django Forms & Deploy Prep** (Phase 1: Crash Course)
+  - [ ] Django Forms & Deploy Prep: core builder `phase-1/day21_django_forms_deplo_core.py`
+  - [ ] Django Forms & Deploy Prep: analyzer `phase-1/day21_django_forms_deplo_analyzer.py`
+  - [ ] Django Forms & Deploy Prep: stretch `phase-1/day21_django_forms_deplo_stretch.py`
+- [ ] **Day 22: Iterators Protocol** (Phase 2: Python Deep)
+  - [ ] Custom range with step validation `phase-2/day22_iterators_protocol_iter1.py`
+  - [ ] Iterators Protocol: composition `phase-2/day22_iterators_protocol_pipe.py`
+  - [ ] Iterators Protocol: real-world `phase-2/day22_iterators_protocol_real.py`
+- [ ] **Day 23: Generators & Yield** (Phase 2: Python Deep)
+  - [ ] Fibonacci generator with limit `phase-2/day23_generators_yield_iter1.py`
+  - [ ] Generators & Yield: composition `phase-2/day23_generators_yield_pipe.py`
+  - [ ] Generators & Yield: real-world `phase-2/day23_generators_yield_real.py`
+- [ ] **Day 24: Memory-Efficient Readers** (Phase 2: Python Deep)
+  - [ ] Lazy file reader `phase-2/day24_memory_efficient_r_iter1.py`
+  - [ ] Memory-Efficient Readers: composition `phase-2/day24_memory_efficient_r_pipe.py`
+  - [ ] Memory-Efficient Readers: real-world `phase-2/day24_memory_efficient_r_real.py`
+- [ ] **Day 25: Function Decorators** (Phase 2: Python Deep)
+  - [ ] Function Decorators implementation `phase-2/day25_function_decorator_impl.py`
+  - [ ] Function Decorators with args `phase-2/day25_function_decorator_advanced.py`
+  - [ ] Function Decorators production use `phase-2/day25_function_decorator_prod.py`
+  - [ ] Function Decorators edge cases `phase-2/day25_function_decorator_edge.py`
+- [ ] **Day 26: Auth & Timing Decorators** (Phase 2: Python Deep)
+  - [ ] Auth & Timing Decorators implementation `phase-2/day26_auth_timing_decora_impl.py`
+  - [ ] Auth & Timing Decorators with args `phase-2/day26_auth_timing_decora_advanced.py`
+  - [ ] Auth & Timing Decorators production use `phase-2/day26_auth_timing_decora_prod.py`
+  - [ ] Auth & Timing Decorators edge cases `phase-2/day26_auth_timing_decora_edge.py`
+- [ ] **Day 27: Context Managers** (Phase 2: Python Deep)
+  - [ ] Context Managers implementation `phase-2/day27_context_managers_impl.py`
+  - [ ] Context Managers with args `phase-2/day27_context_managers_advanced.py`
+  - [ ] Context Managers production use `phase-2/day27_context_managers_prod.py`
+  - [ ] Context Managers edge cases `phase-2/day27_context_managers_edge.py`
+- [ ] **Day 28: Closures & Scope** (Phase 2: Python Deep)
+  - [ ] Closures & Scope implementation `phase-2/day28_closures_scope_impl.py`
+  - [ ] Closures & Scope with args `phase-2/day28_closures_scope_advanced.py`
+  - [ ] Closures & Scope production use `phase-2/day28_closures_scope_prod.py`
+  - [ ] Closures & Scope edge cases `phase-2/day28_closures_scope_edge.py`
+- [ ] **Day 29: Currying & Partial** (Phase 2: Python Deep)
+  - [ ] Currying & Partial implementation `phase-2/day29_currying_partial_impl.py`
+  - [ ] Currying & Partial with args `phase-2/day29_currying_partial_advanced.py`
+  - [ ] Currying & Partial production use `phase-2/day29_currying_partial_prod.py`
+  - [ ] Currying & Partial edge cases `phase-2/day29_currying_partial_edge.py`
+- [ ] **Day 30: Memoization & Caching** (Phase 2: Python Deep)
+  - [ ] Memoization & Caching implementation `phase-2/day30_memoization_cachin_impl.py`
+  - [ ] Memoization & Caching with args `phase-2/day30_memoization_cachin_advanced.py`
+  - [ ] Memoization & Caching production use `phase-2/day30_memoization_cachin_prod.py`
+  - [ ] Memoization & Caching edge cases `phase-2/day30_memoization_cachin_edge.py`
+- [ ] **Day 31: Building Packages** (Phase 2: Python Deep)
+  - [ ] Building Packages implementation `phase-2/day31_building_packages_impl.py`
+  - [ ] Building Packages with args `phase-2/day31_building_packages_advanced.py`
+  - [ ] Building Packages production use `phase-2/day31_building_packages_prod.py`
+  - [ ] Building Packages edge cases `phase-2/day31_building_packages_edge.py`
+- [ ] **Day 32: Counter & Collections** (Phase 2: Python Deep)
+  - [ ] Counter & Collections implementation `phase-2/day32_counter_collection_impl.py`
+  - [ ] Counter & Collections with args `phase-2/day32_counter_collection_advanced.py`
+  - [ ] Counter & Collections production use `phase-2/day32_counter_collection_prod.py`
+  - [ ] Counter & Collections edge cases `phase-2/day32_counter_collection_edge.py`
+- [ ] **Day 33: Advanced Collections** (Phase 2: Python Deep)
+  - [ ] Advanced Collections implementation `phase-2/day33_advanced_collectio_impl.py`
+  - [ ] Advanced Collections with args `phase-2/day33_advanced_collectio_advanced.py`
+  - [ ] Advanced Collections production use `phase-2/day33_advanced_collectio_prod.py`
+  - [ ] Advanced Collections edge cases `phase-2/day33_advanced_collectio_edge.py`
+- [ ] **Day 34: Threading Fundamentals** (Phase 2: Python Deep)
+  - [ ] Threading Fundamentals implementation `phase-2/day34_threading_fundamen_impl.py`
+  - [ ] Threading Fundamentals with args `phase-2/day34_threading_fundamen_advanced.py`
+  - [ ] Threading Fundamentals production use `phase-2/day34_threading_fundamen_prod.py`
+  - [ ] Threading Fundamentals edge cases `phase-2/day34_threading_fundamen_edge.py`
+- [ ] **Day 35: Multiprocessing** (Phase 2: Python Deep)
+  - [ ] Multiprocessing implementation `phase-2/day35_multiprocessing_impl.py`
+  - [ ] Multiprocessing with args `phase-2/day35_multiprocessing_advanced.py`
+  - [ ] Multiprocessing production use `phase-2/day35_multiprocessing_prod.py`
+  - [ ] Multiprocessing edge cases `phase-2/day35_multiprocessing_edge.py`
+- [ ] **Day 36: Asyncio Basics** (Phase 2: Python Deep)
+  - [ ] Asyncio Basics implementation `phase-2/day36_asyncio_basics_impl.py`
+  - [ ] Asyncio Basics with args `phase-2/day36_asyncio_basics_advanced.py`
+  - [ ] Asyncio Basics production use `phase-2/day36_asyncio_basics_prod.py`
+  - [ ] Asyncio Basics edge cases `phase-2/day36_asyncio_basics_edge.py`
+- [ ] **Day 37: Async HTTP Fetch** (Phase 2: Python Deep)
+  - [ ] Async HTTP Fetch implementation `phase-2/day37_async_http_fetch_impl.py`
+  - [ ] Async HTTP Fetch with args `phase-2/day37_async_http_fetch_advanced.py`
+  - [ ] Async HTTP Fetch production use `phase-2/day37_async_http_fetch_prod.py`
+  - [ ] Async HTTP Fetch edge cases `phase-2/day37_async_http_fetch_edge.py`
+- [ ] **Day 38: Concurrency Patterns** (Phase 2: Python Deep)
+  - [ ] Concurrency Patterns implementation `phase-2/day38_concurrency_patter_impl.py`
+  - [ ] Concurrency Patterns with args `phase-2/day38_concurrency_patter_advanced.py`
+  - [ ] Concurrency Patterns production use `phase-2/day38_concurrency_patter_prod.py`
+  - [ ] Concurrency Patterns edge cases `phase-2/day38_concurrency_patter_edge.py`
+- [ ] **Day 39: Async Context & Locks** (Phase 2: Python Deep)
+  - [ ] Async Context & Locks implementation `phase-2/day39_async_context_lock_impl.py`
+  - [ ] Async Context & Locks with args `phase-2/day39_async_context_lock_advanced.py`
+  - [ ] Async Context & Locks production use `phase-2/day39_async_context_lock_prod.py`
+  - [ ] Async Context & Locks edge cases `phase-2/day39_async_context_lock_edge.py`
+- [ ] **Day 40: Designing Async Scraper** (Phase 2: Python Deep)
+  - [ ] Designing Async Scraper implementation `phase-2/day40_designing_async_sc_impl.py`
+  - [ ] Designing Async Scraper with args `phase-2/day40_designing_async_sc_advanced.py`
+  - [ ] Designing Async Scraper production use `phase-2/day40_designing_async_sc_prod.py`
+  - [ ] Designing Async Scraper edge cases `phase-2/day40_designing_async_sc_edge.py`
+- [ ] **Day 41: Implementing Scraper** (Phase 2: Python Deep)
+  - [ ] Implementing Scraper implementation `phase-2/day41_implementing_scrap_impl.py`
+  - [ ] Implementing Scraper with args `phase-2/day41_implementing_scrap_advanced.py`
+  - [ ] Implementing Scraper production use `phase-2/day41_implementing_scrap_prod.py`
+  - [ ] Implementing Scraper edge cases `phase-2/day41_implementing_scrap_edge.py`
+- [ ] **Day 42: Testing & Refining Scraper** (Phase 2: Python Deep)
+  - [ ] Testing & Refining Scraper implementation `phase-2/day42_testing_refining_s_impl.py`
+  - [ ] Testing & Refining Scraper with args `phase-2/day42_testing_refining_s_advanced.py`
+  - [ ] Testing & Refining Scraper production use `phase-2/day42_testing_refining_s_prod.py`
+  - [ ] Testing & Refining Scraper edge cases `phase-2/day42_testing_refining_s_edge.py`
+- [ ] **Day 43: Single Responsibility** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Single Responsibility `phase-3/day43_single_responsibil_refactor.py`
+  - [ ] Single Responsibility in e-commerce `phase-3/day43_single_responsibil_domain.py`
+  - [ ] Single Responsibility testability `phase-3/day43_single_responsibil_testable.py`
+- [ ] **Day 44: Open-Closed Principle** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Open-Closed Principle `phase-3/day44_open_closed_princi_refactor.py`
+  - [ ] Open-Closed Principle in e-commerce `phase-3/day44_open_closed_princi_domain.py`
+  - [ ] Open-Closed Principle testability `phase-3/day44_open_closed_princi_testable.py`
+- [ ] **Day 45: Liskov & Interface Segregation** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Liskov & Interface Segregation `phase-3/day45_liskov_interface_s_refactor.py`
+  - [ ] Liskov & Interface Segregation in e-commerce `phase-3/day45_liskov_interface_s_domain.py`
+  - [ ] Liskov & Interface Segregation testability `phase-3/day45_liskov_interface_s_testable.py`
+- [ ] **Day 46: Dependency Inversion** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Dependency Inversion `phase-3/day46_dependency_inversi_refactor.py`
+  - [ ] Dependency Inversion in e-commerce `phase-3/day46_dependency_inversi_domain.py`
+  - [ ] Dependency Inversion testability `phase-3/day46_dependency_inversi_testable.py`
+- [ ] **Day 47: Factory Pattern** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Factory Pattern `phase-3/day47_factory_pattern_refactor.py`
+  - [ ] Factory Pattern in e-commerce `phase-3/day47_factory_pattern_domain.py`
+  - [ ] Factory Pattern testability `phase-3/day47_factory_pattern_testable.py`
+- [ ] **Day 48: Adapter Pattern** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Adapter Pattern `phase-3/day48_adapter_pattern_refactor.py`
+  - [ ] Adapter Pattern in e-commerce `phase-3/day48_adapter_pattern_domain.py`
+  - [ ] Adapter Pattern testability `phase-3/day48_adapter_pattern_testable.py`
+- [ ] **Day 49: Strategy Pattern** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Strategy Pattern `phase-3/day49_strategy_pattern_refactor.py`
+  - [ ] Strategy Pattern in e-commerce `phase-3/day49_strategy_pattern_domain.py`
+  - [ ] Strategy Pattern testability `phase-3/day49_strategy_pattern_testable.py`
+- [ ] **Day 50: Observer Pattern** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Observer Pattern `phase-3/day50_observer_pattern_refactor.py`
+  - [ ] Observer Pattern in e-commerce `phase-3/day50_observer_pattern_domain.py`
+  - [ ] Observer Pattern testability `phase-3/day50_observer_pattern_testable.py`
+- [ ] **Day 51: Descriptors** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Descriptors `phase-3/day51_descriptors_refactor.py`
+  - [ ] Descriptors in e-commerce `phase-3/day51_descriptors_domain.py`
+  - [ ] Descriptors testability `phase-3/day51_descriptors_testable.py`
+- [ ] **Day 52: Mixins & Composition** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Mixins & Composition `phase-3/day52_mixins_composition_refactor.py`
+  - [ ] Mixins & Composition in e-commerce `phase-3/day52_mixins_composition_domain.py`
+  - [ ] Mixins & Composition testability `phase-3/day52_mixins_composition_testable.py`
+- [ ] **Day 53: Abstract Base Classes** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Abstract Base Classes `phase-3/day53_abstract_base_clas_refactor.py`
+  - [ ] Abstract Base Classes in e-commerce `phase-3/day53_abstract_base_clas_domain.py`
+  - [ ] Abstract Base Classes testability `phase-3/day53_abstract_base_clas_testable.py`
+- [ ] **Day 54: Metaclasses** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Metaclasses `phase-3/day54_metaclasses_refactor.py`
+  - [ ] Metaclasses in e-commerce `phase-3/day54_metaclasses_domain.py`
+  - [ ] Metaclasses testability `phase-3/day54_metaclasses_testable.py`
+- [ ] **Day 55: Properties & Computed Attrs** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Properties & Computed Attrs `phase-3/day55_properties_compute_refactor.py`
+  - [ ] Properties & Computed Attrs in e-commerce `phase-3/day55_properties_compute_domain.py`
+  - [ ] Properties & Computed Attrs testability `phase-3/day55_properties_compute_testable.py`
+- [ ] **Day 56: Dataclasses & Slots** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Dataclasses & Slots `phase-3/day56_dataclasses_slots_refactor.py`
+  - [ ] Dataclasses & Slots in e-commerce `phase-3/day56_dataclasses_slots_domain.py`
+  - [ ] Dataclasses & Slots testability `phase-3/day56_dataclasses_slots_testable.py`
+- [ ] **Day 57: Composition over Inheritance** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Composition over Inheritance `phase-3/day57_composition_over_i_refactor.py`
+  - [ ] Composition over Inheritance in e-commerce `phase-3/day57_composition_over_i_domain.py`
+  - [ ] Composition over Inheritance testability `phase-3/day57_composition_over_i_testable.py`
+- [ ] **Day 58: Magic Methods** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Magic Methods `phase-3/day58_magic_methods_refactor.py`
+  - [ ] Magic Methods in e-commerce `phase-3/day58_magic_methods_domain.py`
+  - [ ] Magic Methods testability `phase-3/day58_magic_methods_testable.py`
+- [ ] **Day 59: Plugin Interface Design** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Plugin Interface Design `phase-3/day59_plugin_interface_d_refactor.py`
+  - [ ] Plugin Interface Design in e-commerce `phase-3/day59_plugin_interface_d_domain.py`
+  - [ ] Plugin Interface Design testability `phase-3/day59_plugin_interface_d_testable.py`
+- [ ] **Day 60: Hook System** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Hook System `phase-3/day60_hook_system_refactor.py`
+  - [ ] Hook System in e-commerce `phase-3/day60_hook_system_domain.py`
+  - [ ] Hook System testability `phase-3/day60_hook_system_testable.py`
+- [ ] **Day 61: Plugin Discovery** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Plugin Discovery `phase-3/day61_plugin_discovery_refactor.py`
+  - [ ] Plugin Discovery in e-commerce `phase-3/day61_plugin_discovery_domain.py`
+  - [ ] Plugin Discovery testability `phase-3/day61_plugin_discovery_testable.py`
+- [ ] **Day 62: Sandboxing Plugins** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Sandboxing Plugins `phase-3/day62_sandboxing_plugins_refactor.py`
+  - [ ] Sandboxing Plugins in e-commerce `phase-3/day62_sandboxing_plugins_domain.py`
+  - [ ] Sandboxing Plugins testability `phase-3/day62_sandboxing_plugins_testable.py`
+- [ ] **Day 63: Plugin Project** (Phase 3: OOP Mastery)
+  - [ ] Refactor violating Plugin Project `phase-3/day63_plugin_project_refactor.py`
+  - [ ] Plugin Project in e-commerce `phase-3/day63_plugin_project_domain.py`
+  - [ ] Plugin Project testability `phase-3/day63_plugin_project_testable.py`
+- [ ] **Day 64: FastAPI Intro & Routing** (Phase 4: Fullstack SaaS)
+  - [ ] FastAPI Intro & Routing minimal `phase-4/day64_fastapi_intro_rout_endpoint.py`
+  - [ ] FastAPI Intro & Routing hardened `phase-4/day64_fastapi_intro_rout_hardened.py`
+  - [ ] FastAPI Intro & Routing integration `phase-4/day64_fastapi_intro_rout_integration.py`
+- [ ] **Day 65: Pydantic Validation** (Phase 4: Fullstack SaaS)
+  - [ ] Pydantic Validation minimal `phase-4/day65_pydantic_validatio_endpoint.py`
+  - [ ] Pydantic Validation hardened `phase-4/day65_pydantic_validatio_hardened.py`
+  - [ ] Pydantic Validation integration `phase-4/day65_pydantic_validatio_integration.py`
+- [ ] **Day 66: Dependency Injection** (Phase 4: Fullstack SaaS)
+  - [ ] Dependency Injection minimal `phase-4/day66_dependency_injecti_endpoint.py`
+  - [ ] Dependency Injection hardened `phase-4/day66_dependency_injecti_hardened.py`
+  - [ ] Dependency Injection integration `phase-4/day66_dependency_injecti_integration.py`
+- [ ] **Day 67: CRUD Routes** (Phase 4: Fullstack SaaS)
+  - [ ] CRUD Routes minimal `phase-4/day67_crud_routes_endpoint.py`
+  - [ ] CRUD Routes hardened `phase-4/day67_crud_routes_hardened.py`
+  - [ ] CRUD Routes integration `phase-4/day67_crud_routes_integration.py`
+- [ ] **Day 68: Query & Filtering** (Phase 4: Fullstack SaaS)
+  - [ ] Query & Filtering minimal `phase-4/day68_query_filtering_endpoint.py`
+  - [ ] Query & Filtering hardened `phase-4/day68_query_filtering_hardened.py`
+  - [ ] Query & Filtering integration `phase-4/day68_query_filtering_integration.py`
+- [ ] **Day 69: Pagination & Sorting** (Phase 4: Fullstack SaaS)
+  - [ ] Pagination & Sorting minimal `phase-4/day69_pagination_sorting_endpoint.py`
+  - [ ] Pagination & Sorting hardened `phase-4/day69_pagination_sorting_hardened.py`
+  - [ ] Pagination & Sorting integration `phase-4/day69_pagination_sorting_integration.py`
+- [ ] **Day 70: Password Hashing** (Phase 4: Fullstack SaaS)
+  - [ ] Password Hashing minimal `phase-4/day70_password_hashing_endpoint.py`
+  - [ ] Password Hashing hardened `phase-4/day70_password_hashing_hardened.py`
+  - [ ] Password Hashing integration `phase-4/day70_password_hashing_integration.py`
+- [ ] **Day 71: JWT Creation & Verify** (Phase 4: Fullstack SaaS)
+  - [ ] JWT Creation & Verify minimal `phase-4/day71_jwt_creation_verif_endpoint.py`
+  - [ ] JWT Creation & Verify hardened `phase-4/day71_jwt_creation_verif_hardened.py`
+  - [ ] JWT Creation & Verify integration `phase-4/day71_jwt_creation_verif_integration.py`
+- [ ] **Day 72: Auth Dependencies** (Phase 4: Fullstack SaaS)
+  - [ ] Auth Dependencies minimal `phase-4/day72_auth_dependencies_endpoint.py`
+  - [ ] Auth Dependencies hardened `phase-4/day72_auth_dependencies_hardened.py`
+  - [ ] Auth Dependencies integration `phase-4/day72_auth_dependencies_integration.py`
+- [ ] **Day 73: RBAC & Scopes** (Phase 4: Fullstack SaaS)
+  - [ ] RBAC & Scopes minimal `phase-4/day73_rbac_scopes_endpoint.py`
+  - [ ] RBAC & Scopes hardened `phase-4/day73_rbac_scopes_hardened.py`
+  - [ ] RBAC & Scopes integration `phase-4/day73_rbac_scopes_integration.py`
+- [ ] **Day 74: Refresh Tokens** (Phase 4: Fullstack SaaS)
+  - [ ] Refresh Tokens minimal `phase-4/day74_refresh_tokens_endpoint.py`
+  - [ ] Refresh Tokens hardened `phase-4/day74_refresh_tokens_hardened.py`
+  - [ ] Refresh Tokens integration `phase-4/day74_refresh_tokens_integration.py`
+- [ ] **Day 75: React Components** (Phase 4: Fullstack SaaS)
+  - [ ] React Components minimal `phase-4/day75_react_components_component.tsx`
+  - [ ] React Components hardened `phase-4/day75_react_components_hardened.tsx`
+  - [ ] React Components integration `phase-4/day75_react_components_integration.tsx`
+- [ ] **Day 76: React Hooks** (Phase 4: Fullstack SaaS)
+  - [ ] React Hooks minimal `phase-4/day76_react_hooks_component.tsx`
+  - [ ] React Hooks hardened `phase-4/day76_react_hooks_hardened.tsx`
+  - [ ] React Hooks integration `phase-4/day76_react_hooks_integration.tsx`
+- [ ] **Day 77: State Management** (Phase 4: Fullstack SaaS)
+  - [ ] State Management minimal `phase-4/day77_state_management_component.tsx`
+  - [ ] State Management hardened `phase-4/day77_state_management_hardened.tsx`
+  - [ ] State Management integration `phase-4/day77_state_management_integration.tsx`
+- [ ] **Day 78: Protected Routes** (Phase 4: Fullstack SaaS)
+  - [ ] Protected Routes minimal `phase-4/day78_protected_routes_component.tsx`
+  - [ ] Protected Routes hardened `phase-4/day78_protected_routes_hardened.tsx`
+  - [ ] Protected Routes integration `phase-4/day78_protected_routes_integration.tsx`
+- [ ] **Day 79: Forms & Validation** (Phase 4: Fullstack SaaS)
+  - [ ] Forms & Validation minimal `phase-4/day79_forms_validation_component.tsx`
+  - [ ] Forms & Validation hardened `phase-4/day79_forms_validation_hardened.tsx`
+  - [ ] Forms & Validation integration `phase-4/day79_forms_validation_integration.tsx`
+- [ ] **Day 80: FE-BE Connection** (Phase 4: Fullstack SaaS)
+  - [ ] FE-BE Connection minimal `phase-4/day80_fe_be_connection_endpoint.tsx`
+  - [ ] FE-BE Connection hardened `phase-4/day80_fe_be_connection_hardened.tsx`
+  - [ ] FE-BE Connection integration `phase-4/day80_fe_be_connection_integration.tsx`
+- [ ] **Day 81: Input Validation** (Phase 4: Fullstack SaaS)
+  - [ ] Input Validation minimal `phase-4/day81_input_validation_endpoint.tsx`
+  - [ ] Input Validation hardened `phase-4/day81_input_validation_hardened.tsx`
+  - [ ] Input Validation integration `phase-4/day81_input_validation_integration.tsx`
+- [ ] **Day 82: Optimistic UI** (Phase 4: Fullstack SaaS)
+  - [ ] Optimistic UI minimal `phase-4/day82_optimistic_ui_endpoint.tsx`
+  - [ ] Optimistic UI hardened `phase-4/day82_optimistic_ui_hardened.tsx`
+  - [ ] Optimistic UI integration `phase-4/day82_optimistic_ui_integration.tsx`
+- [ ] **Day 83: File Uploads** (Phase 4: Fullstack SaaS)
+  - [ ] File Uploads minimal `phase-4/day83_file_uploads_endpoint.tsx`
+  - [ ] File Uploads hardened `phase-4/day83_file_uploads_hardened.tsx`
+  - [ ] File Uploads integration `phase-4/day83_file_uploads_integration.tsx`
+- [ ] **Day 84: Search & Filters** (Phase 4: Fullstack SaaS)
+  - [ ] Search & Filters minimal `phase-4/day84_search_filters_endpoint.tsx`
+  - [ ] Search & Filters hardened `phase-4/day84_search_filters_hardened.tsx`
+  - [ ] Search & Filters integration `phase-4/day84_search_filters_integration.tsx`
+- [ ] **Day 85: Caching Strategies** (Phase 4: Fullstack SaaS)
+  - [ ] Caching Strategies minimal `phase-4/day85_caching_strategies_endpoint.tsx`
+  - [ ] Caching Strategies hardened `phase-4/day85_caching_strategies_hardened.tsx`
+  - [ ] Caching Strategies integration `phase-4/day85_caching_strategies_integration.tsx`
+- [ ] **Day 86: Error Boundaries** (Phase 4: Fullstack SaaS)
+  - [ ] Error Boundaries minimal `phase-4/day86_error_boundaries_endpoint.tsx`
+  - [ ] Error Boundaries hardened `phase-4/day86_error_boundaries_hardened.tsx`
+  - [ ] Error Boundaries integration `phase-4/day86_error_boundaries_integration.tsx`
+- [ ] **Day 87: Fullstack Testing** (Phase 4: Fullstack SaaS)
+  - [ ] Fullstack Testing minimal `phase-4/day87_fullstack_testing_endpoint.tsx`
+  - [ ] Fullstack Testing hardened `phase-4/day87_fullstack_testing_hardened.tsx`
+  - [ ] Fullstack Testing integration `phase-4/day87_fullstack_testing_integration.tsx`
+- [ ] **Day 88: UI Polish & A11y** (Phase 4: Fullstack SaaS)
+  - [ ] UI Polish & A11y minimal `phase-4/day88_ui_polish_a11y_endpoint.tsx`
+  - [ ] UI Polish & A11y hardened `phase-4/day88_ui_polish_a11y_hardened.tsx`
+  - [ ] UI Polish & A11y integration `phase-4/day88_ui_polish_a11y_integration.tsx`
+- [ ] **Day 89: Dockerfile Best Practices** (Phase 4: Fullstack SaaS)
+  - [ ] Dockerfile Best Practices minimal `phase-4/day89_dockerfile_best_pr_endpoint.py`
+  - [ ] Dockerfile Best Practices hardened `phase-4/day89_dockerfile_best_pr_hardened.py`
+  - [ ] Dockerfile Best Practices integration `phase-4/day89_dockerfile_best_pr_integration.py`
+- [ ] **Day 90: Docker Compose** (Phase 4: Fullstack SaaS)
+  - [ ] Docker Compose minimal `phase-4/day90_docker_compose_endpoint.py`
+  - [ ] Docker Compose hardened `phase-4/day90_docker_compose_hardened.py`
+  - [ ] Docker Compose integration `phase-4/day90_docker_compose_integration.py`
+- [ ] **Day 91: Env & Secrets** (Phase 4: Fullstack SaaS)
+  - [ ] Env & Secrets minimal `phase-4/day91_env_secrets_endpoint.py`
+  - [ ] Env & Secrets hardened `phase-4/day91_env_secrets_hardened.py`
+  - [ ] Env & Secrets integration `phase-4/day91_env_secrets_integration.py`
+- [ ] **Day 92: CI Pipeline** (Phase 4: Fullstack SaaS)
+  - [ ] CI Pipeline minimal `phase-4/day92_ci_pipeline_endpoint.py`
+  - [ ] CI Pipeline hardened `phase-4/day92_ci_pipeline_hardened.py`
+  - [ ] CI Pipeline integration `phase-4/day92_ci_pipeline_integration.py`
+- [ ] **Day 93: CD Pipeline** (Phase 4: Fullstack SaaS)
+  - [ ] CD Pipeline minimal `phase-4/day93_cd_pipeline_endpoint.py`
+  - [ ] CD Pipeline hardened `phase-4/day93_cd_pipeline_hardened.py`
+  - [ ] CD Pipeline integration `phase-4/day93_cd_pipeline_integration.py`
+- [ ] **Day 94: Monitoring & Logs** (Phase 4: Fullstack SaaS)
+  - [ ] Monitoring & Logs minimal `phase-4/day94_monitoring_logs_endpoint.py`
+  - [ ] Monitoring & Logs hardened `phase-4/day94_monitoring_logs_hardened.py`
+  - [ ] Monitoring & Logs integration `phase-4/day94_monitoring_logs_integration.py`
+- [ ] **Day 95: Backups & Recovery** (Phase 4: Fullstack SaaS)
+  - [ ] Backups & Recovery minimal `phase-4/day95_backups_recovery_endpoint.py`
+  - [ ] Backups & Recovery hardened `phase-4/day95_backups_recovery_hardened.py`
+  - [ ] Backups & Recovery integration `phase-4/day95_backups_recovery_integration.py`
+- [ ] **Day 96: Scaling & Load** (Phase 4: Fullstack SaaS)
+  - [ ] Scaling & Load minimal `phase-4/day96_scaling_load_endpoint.py`
+  - [ ] Scaling & Load hardened `phase-4/day96_scaling_load_hardened.py`
+  - [ ] Scaling & Load integration `phase-4/day96_scaling_load_integration.py`
+- [ ] **Day 97: Security Hardening** (Phase 4: Fullstack SaaS)
+  - [ ] Security Hardening minimal `phase-4/day97_security_hardening_endpoint.py`
+  - [ ] Security Hardening hardened `phase-4/day97_security_hardening_hardened.py`
+  - [ ] Security Hardening integration `phase-4/day97_security_hardening_integration.py`
+- [ ] **Day 98: Production Deploy** (Phase 4: Fullstack SaaS)
+  - [ ] Production Deploy minimal `phase-4/day98_production_deploy_endpoint.py`
+  - [ ] Production Deploy hardened `phase-4/day98_production_deploy_hardened.py`
+  - [ ] Production Deploy integration `phase-4/day98_production_deploy_integration.py`
+- [ ] **Day 99: Prompt Templates** (Phase 5: LLM Product)
+  - [ ] Prompt Templates core `phase-5/day99_prompt_templates_core.py`
+  - [ ] Prompt Templates evaluation `phase-5/day99_prompt_templates_eval.py`
+  - [ ] Prompt Templates production `phase-5/day99_prompt_templates_prod.py`
+- [ ] **Day 100: Embeddings Basics** (Phase 5: LLM Product)
+  - [ ] Embeddings Basics core `phase-5/day100_embeddings_basics_core.py`
+  - [ ] Embeddings Basics evaluation `phase-5/day100_embeddings_basics_eval.py`
+  - [ ] Embeddings Basics production `phase-5/day100_embeddings_basics_prod.py`
+- [ ] **Day 101: Similarity Search** (Phase 5: LLM Product)
+  - [ ] Similarity Search core `phase-5/day101_similarity_search_core.py`
+  - [ ] Similarity Search evaluation `phase-5/day101_similarity_search_eval.py`
+  - [ ] Similarity Search production `phase-5/day101_similarity_search_prod.py`
+- [ ] **Day 102: LLM Wrapper & Retry** (Phase 5: LLM Product)
+  - [ ] LLM Wrapper & Retry core `phase-5/day102_llm_wrapper_retry_core.py`
+  - [ ] LLM Wrapper & Retry evaluation `phase-5/day102_llm_wrapper_retry_eval.py`
+  - [ ] LLM Wrapper & Retry production `phase-5/day102_llm_wrapper_retry_prod.py`
+- [ ] **Day 103: Streaming Responses** (Phase 5: LLM Product)
+  - [ ] Streaming Responses core `phase-5/day103_streaming_response_core.py`
+  - [ ] Streaming Responses evaluation `phase-5/day103_streaming_response_eval.py`
+  - [ ] Streaming Responses production `phase-5/day103_streaming_response_prod.py`
+- [ ] **Day 104: Text Chunking** (Phase 5: LLM Product)
+  - [ ] Text Chunking core `phase-5/day104_text_chunking_core.py`
+  - [ ] Text Chunking evaluation `phase-5/day104_text_chunking_eval.py`
+  - [ ] Text Chunking production `phase-5/day104_text_chunking_prod.py`
+- [ ] **Day 105: Vector Stores** (Phase 5: LLM Product)
+  - [ ] Vector Stores core `phase-5/day105_vector_stores_core.py`
+  - [ ] Vector Stores evaluation `phase-5/day105_vector_stores_eval.py`
+  - [ ] Vector Stores production `phase-5/day105_vector_stores_prod.py`
+- [ ] **Day 106: Retrieval Logic** (Phase 5: LLM Product)
+  - [ ] Retrieval Logic core `phase-5/day106_retrieval_logic_core.py`
+  - [ ] Retrieval Logic evaluation `phase-5/day106_retrieval_logic_eval.py`
+  - [ ] Retrieval Logic production `phase-5/day106_retrieval_logic_prod.py`
+- [ ] **Day 107: RAG Pipeline** (Phase 5: LLM Product)
+  - [ ] RAG Pipeline core `phase-5/day107_rag_pipeline_core.py`
+  - [ ] RAG Pipeline evaluation `phase-5/day107_rag_pipeline_eval.py`
+  - [ ] RAG Pipeline production `phase-5/day107_rag_pipeline_prod.py`
+- [ ] **Day 108: Evaluating RAG** (Phase 5: LLM Product)
+  - [ ] Evaluating RAG core `phase-5/day108_evaluating_rag_core.py`
+  - [ ] Evaluating RAG evaluation `phase-5/day108_evaluating_rag_eval.py`
+  - [ ] Evaluating RAG production `phase-5/day108_evaluating_rag_prod.py`
+- [ ] **Day 109: Chat Endpoint** (Phase 5: LLM Product)
+  - [ ] Chat Endpoint core `phase-5/day109_chat_endpoint_core.py`
+  - [ ] Chat Endpoint evaluation `phase-5/day109_chat_endpoint_eval.py`
+  - [ ] Chat Endpoint production `phase-5/day109_chat_endpoint_prod.py`
+- [ ] **Day 110: Conversation Memory** (Phase 5: LLM Product)
+  - [ ] Conversation Memory core `phase-5/day110_conversation_memor_core.py`
+  - [ ] Conversation Memory evaluation `phase-5/day110_conversation_memor_eval.py`
+  - [ ] Conversation Memory production `phase-5/day110_conversation_memor_prod.py`
+- [ ] **Day 111: Tool Calling / Functions** (Phase 5: LLM Product)
+  - [ ] Tool Calling / Functions core `phase-5/day111_tool_calling_funct_core.py`
+  - [ ] Tool Calling / Functions evaluation `phase-5/day111_tool_calling_funct_eval.py`
+  - [ ] Tool Calling / Functions production `phase-5/day111_tool_calling_funct_prod.py`
+- [ ] **Day 112: Streaming Chat** (Phase 5: LLM Product)
+  - [ ] Streaming Chat core `phase-5/day112_streaming_chat_core.py`
+  - [ ] Streaming Chat evaluation `phase-5/day112_streaming_chat_eval.py`
+  - [ ] Streaming Chat production `phase-5/day112_streaming_chat_prod.py`
+- [ ] **Day 113: Chat UI Integration** (Phase 5: LLM Product)
+  - [ ] Chat UI Integration core `phase-5/day113_chat_ui_integratio_core.py`
+  - [ ] Chat UI Integration evaluation `phase-5/day113_chat_ui_integratio_eval.py`
+  - [ ] Chat UI Integration production `phase-5/day113_chat_ui_integratio_prod.py`
+- [ ] **Day 114: LLM Evals** (Phase 5: LLM Product)
+  - [ ] LLM Evals core `phase-5/day114_llm_evals_core.py`
+  - [ ] LLM Evals evaluation `phase-5/day114_llm_evals_eval.py`
+  - [ ] LLM Evals production `phase-5/day114_llm_evals_prod.py`
+- [ ] **Day 115: Guardrails & Moderation** (Phase 5: LLM Product)
+  - [ ] Guardrails & Moderation core `phase-5/day115_guardrails_moderat_core.py`
+  - [ ] Guardrails & Moderation evaluation `phase-5/day115_guardrails_moderat_eval.py`
+  - [ ] Guardrails & Moderation production `phase-5/day115_guardrails_moderat_prod.py`
+- [ ] **Day 116: Cost & Latency Tracking** (Phase 5: LLM Product)
+  - [ ] Cost & Latency Tracking core `phase-5/day116_cost_latency_track_core.py`
+  - [ ] Cost & Latency Tracking evaluation `phase-5/day116_cost_latency_track_eval.py`
+  - [ ] Cost & Latency Tracking production `phase-5/day116_cost_latency_track_prod.py`
+- [ ] **Day 117: Analytics & Feedback** (Phase 5: LLM Product)
+  - [ ] Analytics & Feedback core `phase-5/day117_analytics_feedback_core.py`
+  - [ ] Analytics & Feedback evaluation `phase-5/day117_analytics_feedback_eval.py`
+  - [ ] Analytics & Feedback production `phase-5/day117_analytics_feedback_prod.py`
+- [ ] **Day 118: Pre-launch Checklist** (Phase 5: LLM Product)
+  - [ ] Pre-launch Checklist core `phase-5/day118_pre_launch_checkli_core.py`
+  - [ ] Pre-launch Checklist evaluation `phase-5/day118_pre_launch_checkli_eval.py`
+  - [ ] Pre-launch Checklist production `phase-5/day118_pre_launch_checkli_prod.py`
+- [ ] **Day 119: Growth & Polish** (Phase 5: LLM Product)
+  - [ ] Growth & Polish core `phase-5/day119_growth_polish_core.py`
+  - [ ] Growth & Polish evaluation `phase-5/day119_growth_polish_eval.py`
+  - [ ] Growth & Polish production `phase-5/day119_growth_polish_prod.py`
+- [ ] **Day 120: Ship Day** (Phase 5: LLM Product)
+  - [ ] Ship Day core `phase-5/day120_ship_day_core.py`
+  - [ ] Ship Day evaluation `phase-5/day120_ship_day_eval.py`
+  - [ ] Ship Day production `phase-5/day120_ship_day_prod.py`
+
+## Commit suggestion
+
+```bash
+feat: day 0 progress - 0% complete, streak 0
+```
